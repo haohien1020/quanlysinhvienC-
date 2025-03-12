@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CV\\quanlysinhvien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83B4AFED-8DE7-420A-B4F7-CBA758596515}|quanlysinhvien\\quanlysinhvien.csproj|d:\\cv\\quanlysinhvien\\quanlysinhvien\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83B4AFED-8DE7-420A-B4F7-CBA758596515}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B4AFED-8DE7-420A-B4F7-CBA758596515}|quanlysinhvien\\quanlysinhvien.csproj|d:\\cv\\quanlysinhvien\\quanlysinhvien\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B4AFED-8DE7-420A-B4F7-CBA758596515}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\CV\\quanlysinhvien\\quanlysinhvien\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "quanlysinhvien\\MainWindow.xaml",
+              "ToolTip": "D:\\CV\\quanlysinhvien\\quanlysinhvien\\MainWindow.xaml",
+              "RelativeToolTip": "quanlysinhvien\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T23:10:46.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CV\\quanlysinhvien\\quanlysinhvien\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "quanlysinhvien\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\CV\\quanlysinhvien\\quanlysinhvien\\MainWindow.xaml.cs",
+              "RelativeToolTip": "quanlysinhvien\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:10:44.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
