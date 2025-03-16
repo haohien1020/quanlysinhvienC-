@@ -1,4 +1,5 @@
 ﻿using quanlysinhvien.Models;
+using System.Net;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,11 +22,21 @@ namespace quanlysinhvien
         public MainWindow()
         {
             InitializeComponent();
+           
+            //_context = new QuanLySinhVienContext();
+            //loadData()/*;*/
+            _context  = new QuanLySinhVienContext();
+            loadData();
         }
 
         private void dgSinhvien_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+
+        }
+       private void loadData()
+        {
+            dgSinhVien.ItemsSource = _context.SinhViens.ToList();
         }
     }
 }

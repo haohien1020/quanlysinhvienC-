@@ -1,3 +1,4 @@
+D:\CV\quanlysinhvien\quanlysinhvien\bin\Debug\net8.0-windows\appsettings.json
 D:\CV\quanlysinhvien\quanlysinhvien\bin\Debug\net8.0-windows\quanlysinhvien.exe
 D:\CV\quanlysinhvien\quanlysinhvien\bin\Debug\net8.0-windows\quanlysinhvien.deps.json
 D:\CV\quanlysinhvien\quanlysinhvien\bin\Debug\net8.0-windows\quanlysinhvien.runtimeconfig.json

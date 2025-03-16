@@ -21,17 +21,21 @@ public partial class QuanLySinhVienContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+
         if (!optionsBuilder.IsConfigured)
         {
+            // Sử dụng ConfigurationBuilder để đọc chuỗi kết nối từ appsettings.json
             var configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json")
                 .Build();
 
-            string connectionString = configuration.GetConnectionString("DefaultConnection");
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
             optionsBuilder.UseSqlServer(connectionString);
         }
+
     }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<SinhVien>(entity =>
